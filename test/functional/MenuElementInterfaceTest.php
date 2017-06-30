@@ -33,7 +33,6 @@ class MenuElementInterfaceTest extends TestCase
             ->getLabel()
             ->getCapability()
             ->getIcon()
-            ->getPosition()
             ->onSelected()
             ->new();
 

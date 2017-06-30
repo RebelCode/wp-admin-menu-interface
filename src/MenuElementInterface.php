@@ -30,15 +30,6 @@ interface MenuElementInterface extends IdAwareInterface
     public function getCapability();
 
     /**
-     * Gets the item's position.
-     *
-     * @since [*next-version*]
-     *
-     * @return int
-     */
-    public function getPosition();
-
-    /**
      * Gets the icon to show for this menu.
      *
      * @since [*next-version*]

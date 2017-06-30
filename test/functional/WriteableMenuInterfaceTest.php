@@ -33,7 +33,6 @@ class WriteableMenuInterfaceTest extends TestCase
             ->getLabel()
             ->getCapability()
             ->getIcon()
-            ->getPosition()
             ->onSelected()
             ->getMenuItems()
             ->addMenuItem()
