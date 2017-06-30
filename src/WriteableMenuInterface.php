@@ -14,7 +14,9 @@ interface WriteableMenuInterface extends MenuInterface
      *
      * @since [*next-version*]
      *
-     * @param MenuItemInterface $menuItem The menu item instance to add.
+     * @param MenuElementInterface $menuItem The menu item instance to add.
+     * @param int|null             $position The position of the element in the menu, or null to append to the end of
+     *                                       the menu. Default: null
      */
-    public function addMenuItem(MenuItemInterface $menuItem);
+    public function addElement(MenuElementInterface $menuItem, $position = null);
 }

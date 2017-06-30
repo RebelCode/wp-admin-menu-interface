@@ -35,7 +35,7 @@ class WriteableMenuInterfaceTest extends TestCase
             ->getIcon()
             ->onSelected()
             ->getMenuItems()
-            ->addMenuItem()
+            ->addElement()
             ->new();
 
         return $mock;
