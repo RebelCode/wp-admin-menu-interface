@@ -2,23 +2,23 @@
 
 namespace RebelCode\WordPress\Admin\Menu;
 
-use Dhii\Data\IdAwareInterface;
+use Dhii\Data\Tree\NodeInterface;
 
 /**
  * Something that represents an element that can be placed into a menu or behave as a menu.
  *
  * @since [*next-version*]
  */
-interface MenuElementInterface extends IdAwareInterface
+interface MenuElementInterface extends NodeInterface
 {
     /**
-     * Retrieves the label.
+     * Retrieves the label value to be displayed for this menu element..
      *
      * @since [*next-version*]
      *
      * @return string
      */
-    public function getLabel();
+    public function getValue();
 
     /**
      * Gets the required user capability for this element to be displayed.

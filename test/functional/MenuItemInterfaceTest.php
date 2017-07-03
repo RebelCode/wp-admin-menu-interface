@@ -29,8 +29,10 @@ class MenuItemInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-            ->getId()
-            ->getLabel()
+            ->getKey()
+            ->getValue()
+            ->getChildren()
+            ->getParent()
             ->getCapability()
             ->getIcon()
             ->onSelected()
