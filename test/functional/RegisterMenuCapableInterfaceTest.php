@@ -2,29 +2,29 @@
 
 namespace RebelCode\WordPress\FuncTest\Admin\Menu;
 
-use RebelCode\WordPress\Admin\Menu\MenuRegisterCapableInterface;
+use RebelCode\WordPress\Admin\Menu\RegisterMenuCapableInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see RebelCode\WordPress\Admin\Menu\MenuRegisterCapableInterface}.
+ * Tests {@see RebelCode\WordPress\Admin\Menu\RegisterMenuCapableInterface}.
  *
  * @since [*next-version*]
  */
-class MenuRegisterCapableInterfaceTest extends TestCase
+class RegisterMenuCapableInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'RebelCode\\WordPress\\Admin\\Menu\\MenuRegisterCapableInterface';
+    const TEST_SUBJECT_CLASSNAME = 'RebelCode\\WordPress\\Admin\\Menu\\RegisterMenuCapableInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return MenuRegisterCapableInterface
+     * @return RegisterMenuCapableInterface
      */
     public function createInstance()
     {
