@@ -14,7 +14,7 @@ interface MenuRegisterCapableInterface
      *
      * @since [*next-version*]
      *
-     * @param MenuInterface $menu The menu instance to register.
+     * @param MenuElementInterface $menu The menu instance to register.
      */
-    public function registerMenu(MenuInterface $menu);
+    public function registerMenu(MenuElementInterface $menu);
 }
