@@ -18,7 +18,7 @@ interface MenuElementInterface extends NodeInterface
      *
      * @return string
      */
-    public function getValue();
+    public function getLabel();
 
     /**
      * Gets the required user capability for this element to be displayed.
