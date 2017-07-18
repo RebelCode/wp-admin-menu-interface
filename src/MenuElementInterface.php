@@ -2,15 +2,25 @@
 
 namespace RebelCode\WordPress\Admin\Menu;
 
-use Dhii\Data\Tree\NodeInterface;
+use Dhii\Data\Tree\ChildrenAwareNodeInterface;
+use Dhii\Util\String\StringableInterface;
 
 /**
  * Something that represents an element that can be placed into a menu or behave as a menu.
  *
  * @since [*next-version*]
  */
-interface MenuElementInterface extends NodeInterface
+interface MenuElementInterface extends ChildrenAwareNodeInterface
 {
+    /**
+     * Retrieves the menu's slug identifier.
+     *
+     * @since [*next-version*]
+     *
+     * @return string|StringableInterface
+     */
+    public function getValue();
+
     /**
      * Retrieves the label value to be displayed for this menu element..
      *

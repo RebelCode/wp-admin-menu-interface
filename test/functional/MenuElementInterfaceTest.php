@@ -29,11 +29,10 @@ class MenuElementInterfaceTest extends TestCase
     public function createInstance()
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
-            ->getKey()
             ->getValue()
-            ->getLabel()
+            ->hasChildren()
             ->getChildren()
-            ->getParent()
+            ->getLabel()
             ->getCapability()
             ->getIcon()
             ->onSelected()
@@ -56,7 +55,7 @@ class MenuElementInterfaceTest extends TestCase
         );
 
          $this->assertInstanceOf(
-            'Dhii\\Data\\Tree\\NodeInterface', $subject, 'Subject does not extend expected ancestor.'
+            'Dhii\\Data\\Tree\\ChildrenAwareNodeInterface', $subject, 'Subject does not extend expected ancestor.'
         );
     }
 }
