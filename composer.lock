@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b38be8abb944f24a3051f86b3db8a031",
+    "content-hash": "af0f52bae695bc47729a2bb46322c667",
     "packages": [
         {
             "name": "dhii/data-hierarchy-interface",
-            "version": "dev-task/initial-interfaces",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/hierarchy-interface.git",
-                "reference": "a5921984d4929f39b286b02ed2411cb5abf2b184"
+                "reference": "4483434bda5828b56ee60ad4b1a7a3edcde58134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/hierarchy-interface/zipball/a5921984d4929f39b286b02ed2411cb5abf2b184",
-                "reference": "a5921984d4929f39b286b02ed2411cb5abf2b184",
+                "url": "https://api.github.com/repos/Dhii/hierarchy-interface/zipball/4483434bda5828b56ee60ad4b1a7a3edcde58134",
+                "reference": "4483434bda5828b56ee60ad4b1a7a3edcde58134",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 }
             ],
             "description": "Interfaces for working with hierarchies",
-            "time": "2017-07-14 18:52:08"
+            "time": "2017-07-18 11:10:05"
         },
         {
             "name": "dhii/data-identifiable-interface",
@@ -134,20 +134,20 @@
         },
         {
             "name": "dhii/data-tree-interface",
-            "version": "dev-task/initial-interfaces",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/data-tree-interface.git",
-                "reference": "74c3a2d9b91e16459bfa97b31a7f3feb9fad33b0"
+                "reference": "2ac89fcfcd7c38b49a126dfede220ea815a82406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/data-tree-interface/zipball/74c3a2d9b91e16459bfa97b31a7f3feb9fad33b0",
-                "reference": "74c3a2d9b91e16459bfa97b31a7f3feb9fad33b0",
+                "url": "https://api.github.com/repos/Dhii/data-tree-interface/zipball/2ac89fcfcd7c38b49a126dfede220ea815a82406",
+                "reference": "2ac89fcfcd7c38b49a126dfede220ea815a82406",
                 "shasum": ""
             },
             "require": {
-                "dhii/data-hierarchy-interface": "dev-task/initial-interfaces",
+                "dhii/data-hierarchy-interface": "dev-develop",
                 "dhii/data-key-value-aware-interface": "dev-master",
                 "dhii/stringable-interface": "^0.1",
                 "php": "^5.3.9 | ^7.0"
@@ -164,14 +164,7 @@
                     "Dhii\\Data\\Tree\\": "src"
                 }
             },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "csfix": [
-                    "php-cs-fixer fix -vvv"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -182,11 +175,7 @@
                 }
             ],
             "description": "Interfaces for objects that can make up a tree",
-            "support": {
-                "source": "https://github.com/Dhii/data-tree-interface/tree/task/initial-interfaces",
-                "issues": "https://github.com/Dhii/data-tree-interface/issues"
-            },
-            "time": "2017-07-14 19:03:22"
+            "time": "2017-07-19 09:35:48"
         },
         {
             "name": "dhii/stringable-interface",
@@ -687,12 +676,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "79db5dd907ee977039f77ac8471a739497463429"
+                "reference": "420d44c5534bbf269e85e6213446e8284d53c6c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/79db5dd907ee977039f77ac8471a739497463429",
-                "reference": "79db5dd907ee977039f77ac8471a739497463429",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/420d44c5534bbf269e85e6213446e8284d53c6c7",
+                "reference": "420d44c5534bbf269e85e6213446e8284d53c6c7",
                 "shasum": ""
             },
             "require": {
@@ -742,7 +731,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-05-31 16:22:32"
+            "time": "2017-07-19T07:44:25+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1636,12 +1625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "a34381a455c296a5a2cd97317933aa70c1336e5e"
+                "reference": "c114319f85536d7b10b0057798c99a8795616e84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/a34381a455c296a5a2cd97317933aa70c1336e5e",
-                "reference": "a34381a455c296a5a2cd97317933aa70c1336e5e",
+                "url": "https://api.github.com/repos/symfony/config/zipball/c114319f85536d7b10b0057798c99a8795616e84",
+                "reference": "c114319f85536d7b10b0057798c99a8795616e84",
                 "shasum": ""
             },
             "require": {
@@ -1690,7 +1679,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-24 09:47:31"
+            "time": "2017-07-19T09:38:19+00:00"
         },
         {
             "name": "symfony/console",
@@ -1698,12 +1687,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "4820f8e1b3c03aab46a655518d078a7ffc8df4ef"
+                "reference": "23ae25d68ac02125ec17ace52c01a245095ee650"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/4820f8e1b3c03aab46a655518d078a7ffc8df4ef",
-                "reference": "4820f8e1b3c03aab46a655518d078a7ffc8df4ef",
+                "url": "https://api.github.com/repos/symfony/console/zipball/23ae25d68ac02125ec17ace52c01a245095ee650",
+                "reference": "23ae25d68ac02125ec17ace52c01a245095ee650",
                 "shasum": ""
             },
             "require": {
@@ -1760,7 +1749,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-17T12:21:21+00:00"
+            "time": "2017-07-19T10:10:53+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1816,7 +1805,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-06T13:36:30+00:00"
+            "time": "2017-07-06 13:36:30"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1928,7 +1917,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-11T07:19:17+00:00"
+            "time": "2017-07-11 07:19:17"
         },
         {
             "name": "symfony/finder",
@@ -2085,7 +2074,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-15T08:52:56+00:00"
+            "time": "2017-07-15 08:52:56"
         },
         {
             "name": "symfony/stopwatch",
@@ -2134,7 +2123,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-17T07:33:44+00:00"
+            "time": "2017-07-17 07:33:44"
         },
         {
             "name": "symfony/yaml",

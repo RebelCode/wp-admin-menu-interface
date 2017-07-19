@@ -13,7 +13,7 @@
     "require": {
         "php": "^5.3 | ^7.0",
         "dhii/data-identifiable-interface": "^0.1",
-        "dhii/data-tree-interface": "dev-task/initial-interfaces"
+        "dhii/data-tree-interface": "dev-develop"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
@@ -29,15 +29,5 @@
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dhii/data-tree-interface.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/Dhii/data-hierarchy-aware-interface.git"
-        }
-    ]
+    }
 }
