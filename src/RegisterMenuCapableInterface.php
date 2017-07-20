@@ -14,9 +14,9 @@ interface RegisterMenuCapableInterface
      *
      * @since [*next-version*]
      *
-     * @param MenuElementInterface $menu     The menu instance to register.
-     * @param MenuElementInterface $parent   The parent menu instance.
-     * @param int|null             $position The position of the element within its parent, or null to append.
+     * @param MenuElementInterface             $menu     The menu instance to register.
+     * @param MenuElementInterface|string|null $parent   The parent menu instance.
+     * @param int|null                         $position The position of the element within its parent, or null to append.
      */
-    public function registerMenu(MenuElementInterface $menu, MenuElementInterface $parent = null, $position = null);
+    public function registerMenu(MenuElementInterface $menu, $parent = null, $position = null);
 }
