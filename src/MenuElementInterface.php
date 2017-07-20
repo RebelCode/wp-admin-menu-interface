@@ -4,7 +4,6 @@ namespace RebelCode\WordPress\Admin\Menu;
 
 use Dhii\Data\Tree\ChildrenAwareNodeInterface;
 use Dhii\Data\Tree\KeyAwareNodeInterface;
-use Dhii\Util\String\StringableInterface;
 
 /**
  * Something that represents an element that can be placed into a menu or behave as a menu.
